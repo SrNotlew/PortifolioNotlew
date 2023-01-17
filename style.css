@@ -35,6 +35,7 @@ body {
   background-color: var(--color-fourth);
   font-family: Ubuntu;
   color: var(--color-font);
+  overflow-x: hidden;
 }
 .color-first {
   color: var(--color-first);
@@ -324,3 +325,65 @@ body {
 .skills .content .item .text {
   font-size: 1.2rem;
 }
+
+.projects {
+  width: 100%;
+  padding: 0 4rem;
+  min-height: 100vh;
+  height: auto;
+  position: relative;
+  padding-top: 5rem;
+
+}
+.projects .heading {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.projects .content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  padding-top: 10rem; /* espacamento entre o top da secao para o "meio" */
+}
+.projects .content .item {
+  width: 25em;
+  height: 45em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*justify-content: center;
+  align-items: center;*/
+  flex-direction: column;
+  margin: 0 4em; /* espacamento entre os itens*/
+  background-color: var(--color-fourth);
+  border-radius: 20px;
+}
+.projects .content .item  .card-title{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  font-size: 1.5em; 
+}
+.projects .content .item  .card-text{
+  padding: 0 1.25em 0 1.25em;
+  font-size: 1.35em; 
+}
+
+.projects .content .item .card-img{
+  padding: 1.5em 0 0 0;
+}
+
+.footer {
+  width: 100%;
+  padding: 0 4rem;
+  min-height: 10vh;
+  height: auto;
+  position: relative;
+  padding-top: 1rem;
+}
+

@@ -15,7 +15,15 @@
     <script src="https://kit.fontawesome.com/83c1730359.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav class="nav navBackground" id="nav">
+    <nav class="nav navBackground" id="nav-eader">
+      <div class="menu">
+        <ul class="grid">
+          <li><a class="title" href="#header"></a></li>
+          <li><a class="title" href="#about"></a></li>
+          <li><a class="title" href="#skills"></a></li>
+          <li><a class="title" href="#projects"></a></li>
+          <li><a class="title" href="#Footer"></a></li>
+        </ul>
       <div class="logo">
         <span class="color-first">W</span><span class="color-second">e</span
         ><span class="color-third">l</span>ton
@@ -28,7 +36,7 @@
         </div>
       </div>
     </nav>
-    <header class="header" id="header">
+    <header class="header" id="header"> 
       <div class="circle"></div>
       <div class="left">
         <div class="headWrapper">
@@ -39,7 +47,7 @@
           </div>
         </div>
         <div class="subHeadWrapper">
-          <h4>Um desenvolvedor <span class="color-first web">W</span
+          <h4>Futuro desenvolvedor <span class="color-first web">W</span
           ><span class="color-second web">e</span><span class="color-third web">b</span><h4>
         </div>
       </div>
@@ -47,8 +55,8 @@
         <div class="box">
           <div class="item_list">
             <ul class="icon">
-              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-              <li><a href="#"><i class="fab fa-github"></i></a></li>
+              <li><a target="_blank" href="https://www.linkedin.com/in/welton-rodrigues-800660145/" ><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a target="_blank" href="https://github.com/SrNotlew/"><i class="fab fa-github"></i></a></li>
               <li><a href="#"><i class="fab fa-twitter"></i></a></li>
             </ul>
             <div class="line"></div>
@@ -58,8 +66,8 @@
     </header>
     <section class="about" id="about">
       <div class="left">
-        <p>Ola sou <span class="color-first">Welton</span>, um estudante de programação futuro desenvoldedor web, moro em São José do Rio Preto, São Paulo. Tenho 21 anos estou cursando Analise e Desenvolvimento de Sistemas na Universidade Paulista UNIP.
-        Estou a aprimorar minha habilidades confira nos meus projetos minha evolução.</p>
+        <p>Ola sou <span class="color-first">Welton</span>, um entusiata de programação e futuro desenvoldedor, moro em São José do Rio Preto, São Paulo.
+        Estou a aprimorar minha habilidades confira nos meus projetos a minha evolução.</p>
       </div>
       <div class="right">
         <div class="myimg"><img src="./assets/formatura.jpeg" alt=""></div>
@@ -83,6 +91,36 @@
           <p class="text">JavaScript</p>
         </div>
       </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="heading">
+        <div class="square"></div>
+        <span class="color-first">P</span><span class="color-second">r</span><span class="color-third">o</span>jects
+      </div>
+      <div class="content">
+        <div class="item">
+          <img src="./assets/images/Print_cadastro.png" class="card-img" alt="...">
+          <h3 class="card-title"> <a target="_blank" href="https://github.com/SrNotlew/Cadastro_Produto/blob/main/Cadastro_Produto.py">Projeto automação cadastro de produto</a></h3>
+          <p class="card-text">Projeto criado com o intuito do computador fazer a tarefa de cadastro de produto sozinho, funciona a base de bibliotecas,
+             PyAutoGui responsavel por gravar os movimentos do mouse e teclado, openpyxl responsável por ler arquivos xlsx (excel).
+            Cada cadastro com o script leva 60 segundos, mais de 2000 cadastros realizados com sucesso.</p>
+        </div>
+        <div class="item">
+          <img src="./assets/images/Print_eanConfig.png" class="card-img" alt="...">
+          <h3 class="card-title">Projeto automação liberação <br> fiscal de produto</h3>
+          <p class="card-text">Projeto criado com o intuito do computador fazer a tarefa de cadastro de produto sozinho, funciona a base de bibliotecas,
+             PyAutoGui responsável por gravar os movimentos do mouse e teclado, openpyxl responsável por ler arquivos xlsx (excel),
+             pyscreenshot responsável por tirar print de uma determinada área da tela, tesseract biblioteca que converte imagem em texto.</p>
+        </div>
+        <div class="item">
+          <img src="/assets/images/NLW-beautysalon.png" class="card-img" alt="">
+          <h3 class="card-title">Projeto beauty Salon NLW Rocketseat</h3>
+          <p class="card-text">Projeto criado junto a NLW da Rocketseat, onde o objetivo era criar um site para um salão de cabeleleira</p>
+        </div>
+      </div>
+    </section>
+    <section class="footer" id="Footer">
+      <div class="footer"></div>
     </section>
     <script src="/darkmode.js"></script>
   </body>
